@@ -1,0 +1,13 @@
+first=0
+second=1
+temp=0
+maxValue=0
+evenCount=0
+while maxValue<4000001:
+    temp=first
+    first=second
+    second=temp+second
+    maxValue=second
+    if maxValue%2==0:
+        evenCount=evenCount+maxValue
+print evenCount
