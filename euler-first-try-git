@@ -1,0 +1,19 @@
+Problem 1: 233168
+total=0
+counter=0
+while counter in range(0,1000):
+        if counter%3==0 or counter%5==0:
+            total = total+counter
+        counter=counter+1
+    
+
+print total
+
+Problem 3:
+n = 600851475143
+ i = 2
+ while i * i < n:
+     while n % i == 0:
+        n = n / i
+    i = i + 1
+ print n
